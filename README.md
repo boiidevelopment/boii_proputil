@@ -7,6 +7,7 @@ Includes a copy function to copy the input data into a full lua function for eas
 ## HOW TO
 
 Use `/proputil` to open the UI, you will need to fire this command again after setting animations due to nui focus
+Press ESC to close out the ui
 
 ## INSTALL
 
