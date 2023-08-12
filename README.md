@@ -4,6 +4,10 @@ Just a simple animation and prop setting utility script to help out with resourc
 You can run animations or create and attach props to your character. 
 Includes a copy function to copy the input data into a full lua function for ease :) 
 
+## HOW TO
+
+Use `/proputil` to open the UI, you will need to fire this command again after setting animations due to nui focus
+
 ## INSTALL
 
 1. drag and drop `boii_proputil` in your server resources
