@@ -1,0 +1,200 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 0%;
+}
+
+#prop_utility {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 275px;
+    background-color: rgba(31, 30, 30, 0.8);
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 0 3px rgba(31, 30, 30, 1);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Aldrich';
+    font-size: 0.8rem;
+}
+
+.prop_utility_header {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.tabs {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs li {
+    height: fit-content;
+    width: 100px;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid rgba(31, 30, 30, 0.5);
+    background: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 5px 1px rgba(31, 30, 30, 0.8);
+    cursor: pointer;
+    font-size: 1rem;
+    text-shadow: 1px 0 3px rgba(31, 30, 30, 1);
+    margin: 5px;
+}
+
+.tabs li:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.tab_content {
+    display: none;  /* All tab contents are initially hidden */
+}
+
+.increment_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.increment_container > button  {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.increment_container > button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.increment_container > input:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.tab_button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tab_button_container > button {
+    margin: 5px;
+    padding: 5px 15px;
+    border: 2px solid rgba(31, 30, 30, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: 'Aldrich';
+}
+
+.tab_button_container > button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"], 
+input[type="number"] {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:hover, 
+input[type="number"]:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Styles for the select input */
+select {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    appearance: none;  /* to remove default styling in some browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: 'Aldrich';  /* keeping the font consistent */
+    cursor: pointer; /* to show it's selectable */
+}
+
+select:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+/* Drop-down arrow style for select on Firefox */
+select::-moz-focus-inner {
+    border: 0;
+}
+
+/* Placeholder style for the select options (you can customize this further) */
+option[value=""][disabled] {
+    display: none;
+}
+
+/* Styles for the select options */
+option {
+    background-color: rgba(31, 30, 30, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+}
+
+option:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
