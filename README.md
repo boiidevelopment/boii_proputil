@@ -11,6 +11,8 @@ Includes a copy function to copy the input data into a full lua function for eas
 3. press f8 type `refresh; ensure boii_proputil` and the script will be ready to go.
 
 ## PREVIEW
-coming soon tbh though this is pretty self explanatory
+![image](https://github.com/boiidevelopment/boii_proputil/assets/90377400/367061b9-5cf4-4013-b3cb-11cd4a410baa)
+![image](https://github.com/boiidevelopment/boii_proputil/assets/90377400/c5ce121a-a30f-4cc4-a0b1-81991e752015)
+
 ## SUPPORT
 https://discord.gg/boiidevelopment
